@@ -154,10 +154,18 @@
     }
 
     .leftside-containt {
-        margin: 0;
+        margin: 0 0 45px 30px;
         width: 90%;
         height: 90%;
         align-items: center;
+    }
+
+    .homepage-name-title {
+        margin-left: 7px;
+    }
+
+    .homepage-sub-title {
+        margin-left: 10px;
     }
 
     .homepage-leftside-container {
@@ -179,21 +187,22 @@
     .rightside-containt {
         width: 80%;
         height: 83%;
-        margin: 50px 0 0 20px;
+        margin: 10px 0 0 20px;
+        z-index: 100;
     }
 
     .circle-2 {
         width: 52px;
         height: 52px;
-        top: 25px;
+        top: 2px;
         left: -235px;
-        right: 5px;
+        right: -2px;
     }
 
     .circle {
         width: 75px;
         height: 75px;
-        top: 236px;
+        top: 225px;
         right: 5px;
     }
 
