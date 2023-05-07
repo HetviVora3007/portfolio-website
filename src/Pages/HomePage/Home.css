@@ -141,7 +141,7 @@
     animation: floating 5s linear infinite;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 390px) {
 
     .homepage-subcontainer {
         flex-direction: column;
