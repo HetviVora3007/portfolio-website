@@ -55,7 +55,7 @@
     font-size: 35px;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 550px) {
     .navbar-leftside-container {
         margin-left: 35px;
     }

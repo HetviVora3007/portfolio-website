@@ -60,7 +60,7 @@
     background-color: #1ab394;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 550px) {
     .sidebar-maincontainer {
         bottom: 0;
         flex-direction: row;
