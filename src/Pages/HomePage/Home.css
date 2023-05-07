@@ -144,6 +144,7 @@
 @media screen and (max-width: 550px) {
 
     .homepage-subcontainer {
+        height: 90%;
         flex-direction: column;
     }
 
@@ -156,7 +157,7 @@
     .leftside-containt {
         margin: 0 0 45px 30px;
         width: 90%;
-        height: 90%;
+        height: 95%;
         align-items: center;
     }
 
@@ -203,13 +204,13 @@
         width: 75px;
         height: 75px;
         top: 225px;
-        right: 5px;
+        right: 15px;
     }
 
     .flotting {
         width: 42px;
         height: 42px;
         top: 105px;
-        right: 3px;
+        right: 9px;
     }
 }
