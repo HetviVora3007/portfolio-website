@@ -50,3 +50,28 @@
     height: 100%;
     transition: .4s;
 }
+
+@media screen and (max-width: 550px) {
+    .portfoliopage-maincontainer {
+        height: 1934px;
+    }
+
+    .portfoliopage-title-container {
+        height: 6%;
+        margin-top: 62px;
+    }
+
+    .portfoliopage-title-container h1 {
+        font-size: 40px;
+    }
+
+    .myportfolio-container {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .portfolio-link {
+        margin: 12px;
+        width: 94%;
+    }
+}

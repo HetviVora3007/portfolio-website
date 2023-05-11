@@ -195,13 +195,14 @@
 
 @media screen and (max-width: 550px) {
     .aboutpage-maincontainer {
+        width: 100%;
         height: 2200px;
     }
 
     .aboutpage-title-container {
         height: 6%;
         /* justify-content: left; */
-        margin-left: 10px;
+        /* margin-left: 10px; */
     }
 
     .aboutpage-title-container h1 {
@@ -221,7 +222,6 @@
         width: 100%;
         height: 35%;
         margin-top: 60px;
-        margin-left: 70px;
     }
 
     .aboutpage-personal-image {
@@ -270,5 +270,13 @@
 
     .myskill-title {
         height: 4%;
+    }
+
+    .language-card-container {
+        margin: 18px;
+    }
+
+    .aboutpage-personal-image img {
+        margin-left: 60px;
     }
 }

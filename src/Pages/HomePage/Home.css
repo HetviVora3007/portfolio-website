@@ -143,7 +143,7 @@
 @media screen and (max-width: 550px) {
 
     .homepage-subcontainer {
-        height: 90%;
+        height: 100%;
         flex-direction: column;
     }
 
@@ -187,23 +187,22 @@
     .rightside-containt {
         width: 80%;
         height: 83%;
-        margin: 10px 0 0 20px;
-        z-index: 100;
+        margin: 51px 0 0 12px;
     }
 
     .circle-2 {
         width: 52px;
         height: 52px;
-        top: 2px;
-        left: -235px;
+        top: 31px;
+        left: -255px;
         right: -2px;
     }
 
     .circle {
         width: 75px;
         height: 75px;
-        top: 225px;
-        right: 15px;
+        top: 227px;
+        right: 1px;
     }
 
     .flotting {
