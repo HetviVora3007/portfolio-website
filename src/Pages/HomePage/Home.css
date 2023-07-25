@@ -1,4 +1,5 @@
 .homepage-maincontainer {
+    animation: fadeDownAnimation .5s ease-in-out;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -15,15 +16,16 @@
 
 .homepage-leftside-container {
     width: 50%;
-    height: 70%;
+    height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: fadeRightAnimation 1.7s ease-in-out;
 }
 
 .leftside-containt {
     width: 68%;
-    height: 74%;
+    height: fit-content;
     margin: 58px 0 0 250px;
     display: flex;
     flex-direction: column;
@@ -34,6 +36,7 @@
 .homepage-name-title {
     color: #fafafa;
     font-size: 38px;
+    margin: 0 0 19px 0;
 }
 
 .span-tag {
@@ -45,6 +48,7 @@
     font-size: 27px;
     font-weight: 530;
     display: flex;
+    margin: 19px 0 19px 0;
 }
 
 .Typewriter {
@@ -54,21 +58,22 @@
 .homepage-about-containt {
     color: #d2d2d2;
     font-size: 16px;
+    margin: 19px 0 19px 0;
 }
 
 .aboutpage-link {
     width: 35%;
-    height: 15%;
+    padding: 19px 0;
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
     color: #fafafa;
-    border-radius: 18px;
+    border-radius: 14px;
     font-size: 15px;
     background-color: #1ab394;
     transition: 0.4s;
-    margin-top: 5px;
+    margin: 20px 0 0 0;
     font-weight: 400;
 }
 
@@ -78,10 +83,11 @@
 
 .homepage-rightside-container {
     width: 50%;
-    height: 67%;
+    height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: fadeLeftAnimation 1.7s;
 }
 
 .rightside-containt {
@@ -106,8 +112,9 @@
     top: 350px;
     right: 150px;
     overflow: hidden;
-    animation: circling 18s linear infinite;
-    z-index: 11;
+    /* animation: circling 18s linear infinite; */
+    /* z-index: 11; */
+    animation: fadeBottomAnimation 1.7s;
 }
 
 .circle-2 {
@@ -123,8 +130,9 @@
     right: 10px;
     overflow: hidden;
     margin: auto;
-    animation: circlereverse 22s linear infinite;
+    /* animation: circlereverse 22s linear infinite; */
     z-index: 11;
+    animation: fadeBottomAnimation 1.7s;
 }
 
 .flotting {
@@ -137,7 +145,44 @@
     top: 150px;
     right: 170px;
     z-index: 1;
-    animation: floating 5s linear infinite;
+    /* animation: floating 5s linear infinite; */
+    animation: fadeBottomAnimation 1.7s;
+}
+
+@keyframes fadeRightAnimation {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes fadeLeftAnimation {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeBottomAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 @media screen and (max-width: 550px) {

@@ -1,19 +1,19 @@
 .aboutpage-maincontainer {
     width: 100%;
-    height: 1620px;
+    height: fit-content;
     display: flex;
     background-color: #2c2d30;
 }
 
 .aboutpage-subcontainer {
     width: 100%;
-    height: 100%;
+    height: fit-content;
 }
 
 .aboutpage-title-container {
     width: 100%;
     height: 12%;
-    margin-top: 60px;
+    margin-top: 65px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +23,8 @@
 .aboutpage-title-container h1 {
     color: #fafafa;
     font-weight: 700;
-    font-size: 56px
+    font-size: 56px;
+    margin: 62px 0 63px 0;
 }
 
 .background-title {
@@ -55,7 +56,7 @@
 
 .aboutpage-personal-info {
     width: 100%;
-    height: 26%;
+    height: 420px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -70,7 +71,7 @@
 .aboutpage-personal-image {
     width: 100%;
     height: 100%;
-
+    animation: fadeRightAnimation 1.7s ease-in-out;
 }
 
 .aboutpage-personal-image img {
@@ -83,6 +84,7 @@
 .aboutpage-rightcontainer {
     width: 43%;
     height: 100%;
+    animation: fadeBottomAnimation 1.7s ease-in-out;
 }
 
 .aboutpage-information {
@@ -132,7 +134,7 @@
 
 .aboutpage-horizontal-line {
     width: 100%;
-    height: 8%;
+    height: 130px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,12 +153,13 @@
     justify-content: center;
     align-items: center;
     color: #fff;
+    margin-top: 50px;
 }
 
 .aboutpage-language-container {
     display: flex;
     width: 70%;
-    margin-top: 50px;
+    margin-top: 90px;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-left: 230px;
@@ -193,6 +196,42 @@
     color: #fff;
 }
 
+@keyframes fadeRightAnimation {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes fadeLeftAnimation {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeBottomAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 @media screen and (max-width: 550px) {
     .aboutpage-maincontainer {
         width: 100%;
@@ -201,8 +240,6 @@
 
     .aboutpage-title-container {
         height: 6%;
-        /* justify-content: left; */
-        /* margin-left: 10px; */
     }
 
     .aboutpage-title-container h1 {

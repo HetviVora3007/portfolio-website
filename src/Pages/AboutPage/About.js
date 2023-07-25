@@ -4,7 +4,8 @@ import './About.css'
 import Navbar from '../../Component/Navbar/Navbar'
 import Sidebar from '../../Component/Sidebar/Sidebar'
 import MyImage from '../../Assests/profilepicture.jpg'
-import Resume from '../../../src/Resume.pdf'
+import Resume from './Resume.pdf'
+import Data from '../../DataFile'
 
 const About = () => {
 
@@ -57,14 +58,21 @@ const About = () => {
                     <h2>MY SKILLS</h2>
                 </div>
                 <div className='aboutpage-language-container'>
-                    <div>
-                        <div className='language-card-container'>
-                            <div className='language-card'>
-                                <h2>REACT JS</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
+                    {
+                        Data.map((item) => {
+                            return (
+                                <div>
+                                    <div className='language-card-container'>
+                                        <div className='language-card'>
+                                            <h2>{item.language}</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            )
+                        })
+                    }
+
+                    {/* <div>
                         <div className='language-card-container'>
                             <div className='language-card'>
                                 <h2>BASIC MYSQL</h2>
@@ -112,7 +120,7 @@ const About = () => {
                                 <h2>C/C++</h2>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className='aboutpage-horizontal-line'>
                     <div></div>

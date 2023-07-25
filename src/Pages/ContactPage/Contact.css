@@ -11,7 +11,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: aquamarine; */
 }
 
 .contact-subcontainer {
@@ -19,13 +18,12 @@
     height: 80%;
     display: flex;
     margin-left: 100px;
-    /* background-color: antiquewhite; */
 }
 
 .contactpage-left-container {
     width: 50%;
-    height: 100%;
-    margin-top: 55px;
+    height: fit-content;
+    margin-top: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,27 +31,30 @@
 
 .contact-left-subcontainer {
     width: 80%;
-    height: 85%;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     margin-right: 40px;
-    /* background-color: brown; */
+    animation: fadeRightAnimation 1.7s ease-in-out;
 }
 
 .contact-title {
     width: 100%;
     height: 15%;
     font-size: 22px;
+    margin: 40px 0 10px;
 }
 
 .contact-title h1 {
     color: #fafafa;
+    margin: 15px 0 15px;
 }
 
 .about-contact {
     font-size: 17px;
     color: #fafafa;
+    margin: 10px 0 15px;
 }
 
 
@@ -63,6 +64,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    margin: 15px 0 15px;
 }
 
 .mail-container {
@@ -71,6 +73,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 15px 0 15px;
 }
 
 .mail-container p,
@@ -98,6 +101,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 10px 0 15px;
 }
 
 .contactpage-icons {
@@ -106,6 +110,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 15px 0 0;
 }
 
 .contact-icons {
@@ -130,7 +135,7 @@
 
 .contactpage-rightside-container {
     width: 50%;
-    height: 100%;
+    height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,12 +143,13 @@
 
 .contact-right-subcontainer {
     width: 80%;
-    height: 100%;
-    margin-top: 110px;
+    height: 510px;
+    margin-top: 90px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     margin-left: 100px;
+    animation: fadeLeftAnimation 1.7s ease-in-out;
 }
 
 .contact-rightside-title {
@@ -161,6 +167,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-top: 8px;
 }
 
 .contactpage-inputs p {
@@ -176,20 +183,21 @@
     border: none;
     outline: none;
     color: #fafafa;
-    margin-bottom: 5px;
+    margin-bottom: 25px;
     background-color: transparent;
     border-bottom: 3px solid #1ab394;
 }
 
 .submit-button {
     width: 40%;
-    height: 9%;
+    height: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 16px;
     transition: 0.4s;
     background: #1ab394;
+    margin-top: 15px;
 }
 
 .submit-button button {
@@ -203,6 +211,30 @@
 
 .submit-button:hover {
     scale: calc(1.1);
+}
+
+@keyframes fadeRightAnimation {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes fadeLeftAnimation {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 @media screen and (max-width: 550px) {

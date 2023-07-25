@@ -31,7 +31,7 @@ const Home = () => {
                                         .typeString('Web Developer')
                                         .pauseFor(2000)
                                         .deleteAll()
-                                        .typeString('Front End Developer')
+                                        .typeString('Full Stack Developer')
                                         .pauseFor(250)
                                         .start();
                                 }} /></p>
@@ -43,12 +43,12 @@ const Home = () => {
                 </div>
                 <div className='homepage-rightside-container'>
                     <div className='rightside-containt'>
-                        <div className='circle'></div>
-                        <div className='circle-2'></div>
-                        <div className='circle-3'></div>
-                        <div className='flotting'></div>
                         <img src={profileimg} />
                     </div>
+                    <div className='circle'></div>
+                    <div className='circle-2'></div>
+                    <div className='circle-3'></div>
+                    <div className='flotting'></div>
                 </div>
             </div>
         </div>

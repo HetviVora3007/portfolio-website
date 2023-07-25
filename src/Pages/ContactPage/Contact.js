@@ -46,9 +46,9 @@ const Contact = () => {
                                 </div>
                             </div>
                             <div className="contactpage-icons">
-                                <Link className='contact-icons' to='https://www.instagram.com/__miss__vora__/'><InstagramIcon /></Link>
-                                <Link className='contact-icons' to='https://github.com/HetviVora3007'><GitHubIcon /></Link>
-                                <Link className='contact-icons' to='https://www.linkedin.com/in/hetvi-vora-664456235/'><LinkedInIcon /></Link>
+                                <a className='contact-icons' href='https://www.instagram.com/__miss__vora__/'><InstagramIcon /></a>
+                                <a className='contact-icons' href='https://github.com/HetviVora3007'><GitHubIcon /></a>
+                                <a className='contact-icons' href='https://www.linkedin.com/in/hetvi-vora-664456235/'><LinkedInIcon /></a>
                             </div>
                         </div>
                     </div>

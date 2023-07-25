@@ -13,9 +13,9 @@ const Sidebar = () => {
                 <div className='follow-me-containt'><p>Follow Me</p></div>
                 <div className='sidebar-horizontal-line'></div>
                 <div className='sidebar-icons'>
-                    <Link className='icons' to='https://www.instagram.com/__miss__vora__/'><InstagramIcon /></Link>
-                    <Link className='icons' to='https://github.com/HetviVora3007'><GitHubIcon /></Link>
-                    <Link className='icons' to='https://www.linkedin.com/in/hetvi-vora-664456235/'><LinkedInIcon /></Link>
+                    <a className='icons' href='https://www.instagram.com/__miss__vora__/'><InstagramIcon /></a>
+                    <a className='icons' href='https://github.com/HetviVora3007'><GitHubIcon /></a>
+                    <a className='icons' href='https://www.linkedin.com/in/hetvi-vora-664456235/'><LinkedInIcon /></a>
                 </div>
             </div>
         </>
