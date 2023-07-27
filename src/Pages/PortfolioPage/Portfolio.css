@@ -116,6 +116,7 @@
     .portfoliopage-title-container {
         height: 6%;
         margin-top: 62px;
+        position: static;
     }
 
     .portfoliopage-title-container h1 {

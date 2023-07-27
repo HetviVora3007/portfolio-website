@@ -236,6 +236,7 @@
 
     .aboutpage-title-container {
         height: 6%;
+        position: static;
     }
 
     .aboutpage-title-container h1 {
