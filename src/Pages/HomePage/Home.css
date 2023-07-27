@@ -207,6 +207,7 @@
 
     .homepage-name-title {
         margin: 0 0 0 7px;
+        font-size: 36px;
     }
 
     .homepage-sub-title {
@@ -232,21 +233,21 @@
 
     .rightside-containt {
         width: 75%;
-        height: 83%;
-        margin: 90px 0 0 12px;
+        height: 88%;
+        margin: 100px 0 0 12px;
     }
 
     .circle-2 {
         width: 49px;
         height: 49px;
         top: 31px;
-        left: -236px;
+        left: -217px;
         right: -2px;
     }
 
     .circle {
-        width: 71px;
-        height: 71px;
+        width: 65px;
+        height: 65px;
         top: 227px;
         right: 1px;
     }
