@@ -233,10 +233,6 @@
 }
 
 @media screen and (max-width: 550px) {
-    .aboutpage-maincontainer {
-        width: 100%;
-        height: 2200px;
-    }
 
     .aboutpage-title-container {
         height: 6%;
@@ -251,7 +247,7 @@
     }
 
     .aboutpage-personal-info {
-        height: 35%;
+        height: 720px;
         display: block;
     }
 
@@ -267,7 +263,7 @@
     }
 
     .aboutpage-language-container {
-        margin-left: 0;
+        margin: 50px 0 0 0;
         width: 100%;
     }
 
@@ -298,7 +294,7 @@
     }
 
     .aboutpage-horizontal-line {
-        height: 4%;
+        height: 50px;
     }
 
     .aboutpage-horizontal-line div {

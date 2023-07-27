@@ -109,9 +109,9 @@
 }
 
 @media screen and (max-width: 550px) {
-    .portfoliopage-maincontainer {
+    /* .portfoliopage-maincontainer {
         height: 1934px;
-    }
+    } */
 
     .portfoliopage-title-container {
         height: 6%;
@@ -120,10 +120,11 @@
 
     .portfoliopage-title-container h1 {
         font-size: 40px;
+        margin-top: 70px;
     }
 
     .myportfolio-container {
-        margin-left: 0;
+        margin: 60px 0 0 0;
         width: 100%;
     }
 

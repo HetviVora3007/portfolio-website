@@ -87,7 +87,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: fadeLeftAnimation 1.7s;
+
 }
 
 .rightside-containt {
@@ -100,6 +100,7 @@
     height: 100%;
     width: 100%;
     border-radius: 50%;
+    animation: fadeLeftAnimation 1.7s;
 }
 
 .circle {
@@ -112,8 +113,6 @@
     top: 350px;
     right: 150px;
     overflow: hidden;
-    /* animation: circling 18s linear infinite; */
-    /* z-index: 11; */
     animation: fadeBottomAnimation 1.7s;
 }
 
@@ -130,7 +129,6 @@
     right: 10px;
     overflow: hidden;
     margin: auto;
-    /* animation: circlereverse 22s linear infinite; */
     z-index: 11;
     animation: fadeBottomAnimation 1.7s;
 }
@@ -145,7 +143,6 @@
     top: 150px;
     right: 170px;
     z-index: 1;
-    /* animation: floating 5s linear infinite; */
     animation: fadeBottomAnimation 1.7s;
 }
 
@@ -199,18 +196,18 @@
     }
 
     .leftside-containt {
-        margin: 0 0 45px 30px;
+        margin: 25px 0 20px 24px;
         width: 90%;
-        height: 95%;
+        height: 86%;
         align-items: center;
     }
 
     .homepage-name-title {
-        margin-left: 7px;
+        margin: 0 0 0 7px;
     }
 
     .homepage-sub-title {
-        margin-left: 10px;
+        margin: 19px 0 6px 10px;
     }
 
     .homepage-leftside-container {
@@ -226,7 +223,8 @@
 
     .aboutpage-link {
         width: 61%;
-        height: 15%;
+        height: 25px;
+        margin: 12px 0 0 0;
     }
 
     .rightside-containt {
@@ -236,16 +234,16 @@
     }
 
     .circle-2 {
-        width: 52px;
-        height: 52px;
+        width: 49px;
+        height: 49px;
         top: 31px;
-        left: -255px;
+        left: -236px;
         right: -2px;
     }
 
     .circle {
-        width: 75px;
-        height: 75px;
+        width: 71px;
+        height: 71px;
         top: 227px;
         right: 1px;
     }
