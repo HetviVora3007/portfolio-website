@@ -1,3 +1,3 @@
-const URL = "http://localhost:4000/api/portfolio"
+const URL = "https://portfolio-backend-plyz.onrender.com/"
 
 export default URL
