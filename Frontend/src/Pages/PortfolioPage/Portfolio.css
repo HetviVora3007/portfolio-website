@@ -1,0 +1,142 @@
+.portfoliopage-maincontainer {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    background-color: #2c2d30;
+}
+
+.contactpage-subcontainer {
+    width: 100%;
+    height: 100%;
+}
+
+.portfoliopage-title-container {
+    width: 100%;
+    height: 20%;
+    margin-top: 73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.portfoliopage-title-container h1 {
+    color: #fafafa;
+    font-weight: 700;
+    font-size: 56px;
+    margin-top: 50px;
+}
+
+.myportfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    width: 85%;
+    margin-left: 130px;
+}
+
+.portfolio-link {
+    width: 30%;
+    height: 230px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border-radius: 10px;
+    transition: .4s;
+    animation: fadeRightAnimation 1.7s ease-in-out;
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    transition: 0.4s ease-in-out;
+}
+
+.card-name-container {
+    display: flex;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.4s ease-in-out;
+    background-color: #1ab394;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-name-container h1 {
+    color: #fafafa;
+    text-decoration: none;
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.portfolio-link:hover .card-name-container {
+    opacity: 1;
+}
+
+.portfolio-link:hover .card-image {
+    transform: scale(1.2);
+}
+
+.Project-languaage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 5px;
+    color: #fafafa;
+}
+
+@keyframes fadeRightAnimation {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes fadeUpAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(-20px);
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .portfoliopage-title-container {
+        height: 6%;
+        margin-top: 62px;
+        position: static;
+    }
+
+    .portfoliopage-title-container h1 {
+        font-size: 40px;
+        margin-top: 70px;
+    }
+
+    .myportfolio-container {
+        margin: 60px 0 0 0;
+        width: 100%;
+    }
+
+    .portfolio-link {
+        margin: 12px;
+        width: 94%;
+    }
+}
