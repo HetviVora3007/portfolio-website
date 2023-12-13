@@ -6,12 +6,14 @@
     flex-direction: column;
     justify-content: end;
     align-items: center;
-    /* background-color: #2c2d30; */
     background-color: transparent;
 }
 
 .follow-me-containt {
     rotate: 90deg;
+    width: 100px;
+    display: flex;
+    justify-content: center;
     margin: 20px 0 20px 2px;
 }
 
