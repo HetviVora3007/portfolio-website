@@ -35,7 +35,7 @@ const About = () => {
                         <div className='aboutpage-information'>
                             <div>
                                 <h4>First Name: <span>Hetvi</span></h4>
-                                <h4>Age: <span>19</span></h4>
+                                <h4>Age: <span>20</span></h4>
                                 <h4>Freelance: <span>Available</span></h4>
                                 <h4>Phone: <span>6353402657</span></h4>
                             </div>
